@@ -1,15 +1,16 @@
 import art
 import random
 
-responses = ['Oookay, good luck doing that ! ', 'Good choice, bye!', 'Gotchaaa', 'Alright then!']
+responses = ['Oookay', 'Good choice!', 'Gotchaaa', 'Alright then!', 'You don't need me :( ']
 
 study_list = {
-    'math': ['Algebra', 'Calculus', 'Geometry', 'Statistics'],
-    'geography': ['Continents', 'Countries', 'Capital Cities', 'Physical Features'],
-    'history': ['Ancient Civilizations', 'World Wars', 'Renaissance', 'Industrial Revolution'],
-    'biology': ['Cell Biology', 'Genetics', 'Ecology', 'Anatomy'],
-    'computer science': ['Programming', 'Data Structures', 'Algorithms', 'Web Development'],
+    'math': ['Algebra', 'Calculus', 'Geometry', 'Statistics', 'Trigonometry', 'Number Theory'],
+    'geography': ['Continents', 'Countries', 'Capital Cities', 'Physical Features', 'Oceans', 'Mountains'],
+    'history': ['Ancient Civilizations', 'World Wars', 'Renaissance', 'Industrial Revolution', 'Middle Ages', 'American Revolution'],
+    'biology': ['Cell Biology', 'Genetics', 'Ecology', 'Anatomy', 'Evolution', 'Botany'],
+    'computer science': ['Programming', 'Data Structures', 'Algorithms', 'Web Development', 'Machine Learning', 'Artificial Intelligence'],
 }
+
 book_list = {
     'horror': [
         'The Shining',
@@ -17,6 +18,8 @@ book_list = {
         'Dracula',
         'Frankenstein',
         'Bird Box',
+        'The Exorcist',
+        'House of Leaves',
     ],
     'fantasy': [
         'The Hobbit',
@@ -24,12 +27,16 @@ book_list = {
         'The Name of the Wind',
         'Mistborn: The Final Empire',
         'The Way of Kings',
+        'The Lord of the Rings Trilogy',
+        'Game of Thrones',
     ],
     'science fiction': [
         'The Blazing World and Other Writings by Margaret Cavendish (1666)',
         'Frankenstein by Mary Wollstonecraft Shelley',
         'The Time Machine by H.G. Wells (1895)',
         'The War of the Worlds by H.G. Wells (1897)',
+        'Dune by Frank Herbert',
+        'Neuromancer by William Gibson',
     ],
     'romance': [
         'Pride and Prejudice, by Jane Austen (1813)',
@@ -37,25 +44,31 @@ book_list = {
         'Shanna, by Kathleen E. Woodiwiss (1977)',
         'Morning Glory, by Lavyrle Spencer (1993)',
         'The Viscount Who Loved Me, by Julia Quinn (2000)',
+        'Outlander by Diana Gabaldon',
+        'The Notebook by Nicholas Sparks',
     ],
 }
+
 sport_list = {
-    'active sports': ['Baseball', 'Football', 'Soccer', 'Skiing', 'Boxing'],
-    'passive sports': ['Camping', 'Hiking', 'Walking', 'Fishing', 'Swimming'],
+    'active sports': ['Baseball', 'Football', 'Soccer', 'Skiing', 'Boxing', 'Basketball', 'Tennis'],
+    'passive sports': ['Camping', 'Hiking', 'Walking', 'Fishing', 'Swimming', 'Yoga', 'Pilates'],
 }
+
 game_list = {
-    'action': ['Call of Duty', "Assassin's Creed", 'GTA V', 'Red Dead Redemption'],
-    'adventure': ['The Legend of Zelda', 'Uncharted', 'Tomb Raider', 'God of War'],
-    'puzzle': ['Portal', 'Candy Crush', 'Tetris', 'Portal 2'],
-    'horror': ['Outlast', 'Outlast 2', 'Amnesia', 'Resident Evil 2', 'Silent Hill']
+    'action': ['Call of Duty', "Assassin's Creed", 'GTA V', 'Red Dead Redemption', 'Battlefield', 'Halo'],
+    'adventure': ['The Legend of Zelda', 'Uncharted', 'Tomb Raider', 'God of War', 'Far Cry', 'Assassin’s Creed Valhalla'],
+    'puzzle': ['Portal', 'Candy Crush', 'Tetris', 'Portal 2', 'Sudoku', 'Minesweeper'],
+    'horror': ['Outlast', 'Outlast 2', 'Amnesia', 'Resident Evil 2', 'Silent Hill', 'Dead Space'],
 }
+
 cook_list = {
-    'italian': ['Pasta Carbonara', 'Margherita Pizza', 'Tiramisu', 'Lasagna'],
-    'indian': ['Chicken Tikka Masala', 'Palak Paneer', 'Biryani', 'Gulab Jamun'],
-    'mexican': ['Tacos', 'Enchiladas', 'Guacamole', 'Churros'],
-    'turkish': ['Şiş Kebap', 'Döner', 'Köfte', 'Manti'],
-    'arabic': ['Falafel', 'Baba ganoush', 'Hummus'],
+    'italian': ['Pasta Carbonara', 'Margherita Pizza', 'Tiramisu', 'Lasagna', 'Risotto', 'Panna Cotta'],
+    'indian': ['Chicken Tikka Masala', 'Palak Paneer', 'Biryani', 'Gulab Jamun', 'Butter Chicken', 'Samosa'],
+    'mexican': ['Tacos', 'Enchiladas', 'Guacamole', 'Churros', 'Quesadillas', 'Mole'],
+    'turkish': ['Şiş Kebap', 'Döner', 'Köfte', 'Manti', 'Baklava', 'Lahmacun'],
+    'arabic': ['Falafel', 'Baba Ganoush', 'Hummus', 'Tabbouleh', 'Shawarma', 'Kabsa'],
 }
+
 def main():
     print(art.text2art("What do you wanna do today?", font="ogre", chr_ignore=True))
     option = options()
