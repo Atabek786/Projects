@@ -27,14 +27,14 @@ When you run the bot, it will display a menu with different activity options. Ch
 ## Available Activities
 
 1. **Study**: Explore various subjects like math, geography, history, biology, and computer science.
-2. **Sports**: Engage in active sports like baseball, football, soccer, skiing, or passive sports like camping, hiking, walking, fishing, and swimming.
+2. **Sports**: Engage in active sports like baseball, football, soccer, and skiing, or passive sports like camping, hiking, walking, fishing, and swimming.
 3. **Read**: Discover books in genres like horror, fantasy, science fiction, and romance.
 4. **Game**: Play exciting games from genres like action, adventure, puzzle, and horror.
 5. **Cook**: Experiment with cuisines such as Italian, Indian, Mexican, Turkish, and Arabic.
 
 ## Contributing
 
-You are more the welcomed to improve my code :)
+You are more than welcomed to improve my code :)
 
 ## License
 
@@ -42,4 +42,4 @@ The Activity Suggestion Bot is licensed under the [MIT License](LICENSE). Feel f
 
 ---
 
-Enjoy your time with the my little Bot! If you have any questions or suggestions, please feel free to reach out to me.
+Enjoy your time with my little Bot! If you have any questions or suggestions, please feel free to reach out to me.
