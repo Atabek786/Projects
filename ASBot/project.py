@@ -1,7 +1,7 @@
 import art
 import random
 
-responses = ['Oookay', 'Good choice!', 'Gotchaaa', 'Alright then!', 'You don't need me :( ']
+responses = ['Oookay', 'Good choice!', 'Gotchaaa', 'Alright then!', "You don't need me :( "]
 
 study_list = {
     'math': ['Algebra', 'Calculus', 'Geometry', 'Statistics', 'Trigonometry', 'Number Theory'],
