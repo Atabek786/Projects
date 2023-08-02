@@ -42,4 +42,4 @@ The Activity Suggestion Bot is licensed under the [MIT License](LICENSE). Feel f
 
 ---
 
-Enjoy your time with the my little Bot! If you have any questions or suggestions, please feel free to reach out to us. Happy exploring! 🚀
+Enjoy your time with the my little Bot! If you have any questions or suggestions, please feel free to reach out to me.
