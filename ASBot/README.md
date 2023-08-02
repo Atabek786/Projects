@@ -1,5 +1,5 @@
 # Activity Suggestion Bot
-#### Video Demo: <https://youtu.be/zlasVUBt3ek>
+
 #### Description:
 
 Have you ever found yourself unsure of what to do on a particular day? The Activity Suggestion Bot is here to rescue you from boredom! This bot presents a variety of activity options and provides suggestions based on your interests. Simply interact with the bot, make your choice, and it will offer you a selection of exciting activities to enjoy. This is my final project for CS50P
