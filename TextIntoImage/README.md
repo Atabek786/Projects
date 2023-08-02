@@ -1,6 +1,6 @@
 # TextIntoImage AI
 #### Description:
-TextIntoImage AI is a Python project that harnesses the power of the OpenAI API to convert text prompts into captivating images and generate variations of existing images. This project demonstrates how to interact with the OpenAI API to create visual representations based on textual input.
+TextIntoImage AI is a Python project that harnesses the power of the OpenAI API to convert text prompts into captivating images and generate variations of images. This project demonstrates how to interact with the OpenAI API to create visual representations based on textual input.
 
 ## Features:
 
@@ -9,19 +9,13 @@ TextIntoImage AI is a Python project that harnesses the power of the OpenAI API 
 2. **Image Variation Generation:** The project includes the `openai.Image.create_variation()` function, allowing users to take an existing image stored in the "responses" directory and generate multiple image variations. These variations are also saved in JSON format for future use.
 
 ## Requirements:
-
-To run this project, ensure the following prerequisites are met:
-
 - Python is installed on your system.
-- The necessary libraries specified in the Python script are installed (`openai`, `os`, `json`, `base64`, and `pathlib`).
+- Python libraries : `openai`, `os`, `json`, `base64`, and `pathlib`.
 - An OpenAI API key is required. Set it as an environment variable with the name `OPENAI_API_KEY` to access the OpenAI API for image-related tasks.
-
 ## How to Use:
 
 1. Clone this repository to your local machine.
-
 2. Install the required Python libraries by running the following command in your terminal or command prompt:  pip install openai
-
 3. Set up your OpenAI API key as an environment variable. Replace `<YOUR_API_KEY>` with your actual API key:
 
 - **For Windows:**
@@ -48,4 +42,4 @@ Note: You may need to restart your terminal or command prompt for the changes to
 - Comply with the terms and conditions of the OpenAI API when using this project.
 - Basic understanding of Python and working with APIs is assumed. If you encounter any issues, refer to the OpenAI API documentation or seek support from the OpenAI community.
 
-Feel free to customize and expand this project to suit your specific requirements. Best, Atabek"""
+Feel free to customize and expand this project to suit your specific requirements. 
