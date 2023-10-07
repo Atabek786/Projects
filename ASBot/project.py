@@ -56,7 +56,7 @@ sport_list = {
 
 game_list = {
     'action': ['Call of Duty', "Assassin's Creed", 'GTA V', 'Red Dead Redemption', 'Battlefield', 'Halo'],
-    'adventure': ['The Legend of Zelda', 'Uncharted', 'Tomb Raider', 'God of War', 'Far Cry', 'Assassin’s Creed Valhalla'],
+    'adventure': ['The Legend of Zelda', 'Uncharted', 'Tomb Raider', 'Far Cry', 'Assassin’s Creed Valhalla'],
     'puzzle': ['Portal', 'Candy Crush', 'Tetris', 'Portal 2', 'Sudoku', 'Minesweeper'],
     'horror': ['Outlast', 'Outlast 2', 'Amnesia', 'Resident Evil 2', 'Silent Hill', 'Dead Space'],
 }
