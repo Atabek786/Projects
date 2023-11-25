@@ -1,4 +1,4 @@
-# TextIntoImage AI
+# Imaginify: Text-to-Art AI
 #### Description:
 TextIntoImage AI is a Python project that harnesses the power of the OpenAI API to convert text prompts into captivating images and generate variations of images. This project demonstrates how to interact with the OpenAI API to create visual representations based on textual input.
 
